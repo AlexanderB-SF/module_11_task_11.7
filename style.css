@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.conclusion,
+table {
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px 10px;
+    border: 1px solid #000000;
+}
+
+.qestion-1 {
+    margin-top: 30px;
+}
+
+.qestion-1 td:nth-child(n+3) {
+    width: 77px;
+}
+
+col {
+    width: 45px;
+}
+
+
+
+.qustion-2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.qustion-2 td {
+    width: 58px;
+}
+.conclusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.conclusion span {
+    width: 523px;
+    padding: 10px 20px;
+    background-color: #fdf28f;
+}
